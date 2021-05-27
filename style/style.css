@@ -118,15 +118,16 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 470px;
   height: auto;
 }
 
-.six .hat {
+.six .hat, .nine .hat {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 41.5%;
+  left: 55%;
   /* transform: scale(0.1); */
 }
 
@@ -234,25 +235,25 @@ body {
 
 /* Media Queries */
 @media screen and (max-height: 1000px) {
-  .six .hat {
+  .six .hat, .nine .hat {
     left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
-  .six .hat {
+  .six .hat, .nine .hat {
     left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
-  .six .hat {
+  .six .hat, .nine .hat {
     left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
-  .six .hat {
+  .six .hat, .nine .hat {
     left: 32%;
   }
 }
@@ -279,7 +280,7 @@ body {
     font-size: 10rem;
   }
 
-  .six .hat {
+  .six .hat, .nine .hat {
     width: 50px;
     top: -20px;
   }
